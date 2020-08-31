@@ -1,0 +1,38 @@
+.fb-profile img.fb-image-lg{
+    z-index: 0;
+    width: 100%;  
+    margin-bottom: 10px;
+}
+
+.fb-image-profile {   
+    vertical-align: middle;
+    margin: -80px 10px 0px 50px;
+    z-index: 9;
+}
+
+@media (max-width:768px)
+{
+    
+.fb-profile-text > h1 {
+    font-weight: 700;
+    font-size:16px;
+}
+
+.fb-image-profile {
+    margin: -45px 10px 0px 25px;
+    z-index: 9;
+}
+}
+
+.requestTime {
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: darkred !important;
+    border-color: darkred !important;
+}
+.btn-default{
+    color: #fff;
+    background-color: darkred !important;
+    border-color: darkred !important;
+}

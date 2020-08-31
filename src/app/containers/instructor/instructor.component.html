@@ -1,0 +1,104 @@
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">OUR INSTRUCTORS</h5>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4" *ngFor="let user of instructors">
+                <div class="image-flip" >
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/instructors/{{user.image}}" alt="card image"></p>
+                                    <h4 class="card-title">{{user.name}} {{user.surname}}</h4>
+                                    <p class="card-text">{{user.about}}</p>
+                                    <a class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{user.name}} {{user.surname}}</h4>
+                                    <p class="card-text">{{user.shorDesc}}</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/login">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.instagram.com/accounts/login">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                             <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" (click)="book(user)" type="submit">Book Session</button> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" *ngIf="instructor">{{instructor.name}} {{instructor.surname}} Availability</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h6 class="text-center">Available sessions</h6>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label">Select Training Session</label>
+                          <div class="ui-select">
+                            <select id="user_time_zone" class="form-control">
+                              <option *ngFor="let session of sessions">{{session.name}}</option>  
+                            </select>
+                          </div>
+                      </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label">Select Time</label>
+                          <div class="ui-select">
+                            <select id="user_time_zone" class="form-control">
+                        
+                              <option *ngFor="let time of availability" value={{time}}>{{time}}</option>
+                            </select>
+                          </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary btn-modal" data-dismiss="modal">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>

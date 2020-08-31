@@ -1,0 +1,91 @@
+.main {
+    margin-top: 30px;
+}
+.content {
+    display: inline-flex;
+    
+    .info {
+        margin-left: 20px;
+        .name {
+            font-weight: 700;
+        }
+        div {
+            font-size: 14px;
+
+            &.course-badge {
+                font-weight: 900;
+                font-size: 20px;
+            }
+
+            &.desc {
+                font-style: oblique;
+            }
+
+            &.course-progress {
+                font-weight: 700;
+    
+            }
+
+            &.progress-card {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.card-body {
+
+    &.general {
+
+       background-image: linear-gradient(to right, #D6F4CF , #7cb342);
+       padding-bottom: 12px;
+    }
+
+    h6 {
+        color: black;
+        font-weight: 500;
+    }
+    p {
+        color: green;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+.cont {
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.darkred {
+    color: darkred;
+}
+
+.light-blue {
+    color: #45b6fe;
+}
+
+.red {
+    color: 	#FF6347;
+}
+
+.yellow {
+   color: #e5e500;
+}
+.btn-link {
+    color: black;
+}
+
+.huser-profile {
+    margin-top: 33px;
+    margin-left: 100px;
+    position: relative;
+}
+@media (max-width:768px)
+{
+    .guser-profile {
+        margin-top: 33px;
+        margin-left: 0;
+    }
+}

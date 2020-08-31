@@ -1,0 +1,69 @@
+<main role="main" class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body general">
+                        <h6>Hello {{user.name}} {{user.surname}}</h6>
+                        <p>Today is a great day to be fit!</p>
+                        <span>&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="content">
+                            <div>
+                                <img src="assets/img/{{user.image}}" class="rounded-circle" height="68" width="68" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="name">{{user.name}} {{user.surname}}</div>
+                                <div>{{user.email}}</div>
+                                <div>{{user.contact}}
+                                </div>
+                                <div>
+                                    <a style="color: green;" href="/profile">edit profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont"></div>
+
+        <div class="row">
+            <div class="col-md-3" *ngFor="let item of progress" >
+                <div class="card">
+                    <div class="card-body">
+                        <div class="content">
+                            <div>
+                                <img src="assets/progress-img/{{item.icon}}" class="rounded" height="50" width="50" alt="">
+                            </div>
+                            <div class="info">
+                                <div class="course-progress ">{{item.name}}</div>
+                                <div class="course-badge {{item.color}}">{{item.status}}</div>
+                                <div class="desc progress-card">{{item.description}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cont">
+            All Courses
+        </div>
+        
+        <div class="row" *ngIf="course">
+            <div class="col-md-3" *ngFor="let item of course">
+                <app-start 
+                    [name] = "item.name" 
+                    [status] = "item.status"
+                    [image] = "item.image"></app-start>
+            </div>
+        </div>
+    </div>
+</main>

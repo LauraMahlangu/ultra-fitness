@@ -1,0 +1,610 @@
+{
+    "course": [
+        {
+            "id": 1,
+            "name": "Getting Started",
+            "desciption": "Online Course",
+            "image": "image.jpg",
+            "status": "Re-Enroll",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Diploma in physical Fitness.",
+            "desciption": "Online Course",
+            "image": "physical-fitness.jpg",
+            "status": "Resume",
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "name": "Health and Fitness- Flexibility.",
+            "desciption": "Online Course",
+            "image": "health-fitness-flexibility.jpg",
+            "status": "Start",
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "name": "Calisthenics & Plymestrics ",
+            "desciption": "Online Course",
+            "image": "calisthenic-plymestrics.jpg",
+            "status": "Start",
+            "userId": 1
+        },
+        {
+            "id": 5,
+            "name": "Health Fitness- Running tips",
+            "desciption": "Online Course",
+            "image": "running.jpg",
+            "status": "Start",
+            "userId": 1
+        },
+        {
+            "id": 6,
+            "name": "Swimming & Strength Trainning",
+            "desciption": "Online Course",
+            "image": "swimming-strength.jpg",
+            "status": "Start",
+            "userId": 1
+        },
+        {
+            "id": 7,
+            "name": "Soccer Coaching",
+            "desciption": "Online Course",
+            "image": "soccer-coaching.jpg",
+            "status": "Re-Enroll",
+            "userId": 1
+        },
+        {
+            "id": 8,
+            "name": " Yoga Certification",
+            "desciption": "Online Course",
+            "image": "yoga-Cert.jpg",
+            "status": "Re-Enroll",
+            "userId": 1
+        },{
+            "id": 9,
+            "name": "Getting Started",
+            "desciption": "Online Course",
+            "image": "image.jpg",
+            "status": "Re-Enroll",
+            "userId": 2
+        },
+        {
+            "id": 10,
+            "name": "Diploma in physical Fitness.",
+            "desciption": "Online Course",
+            "image": "physical-fitness.jpg",
+            "status": "Resume",
+            "userId": 2
+        },
+        {
+            "id": 11,
+            "name": "Health and Fitness- Flexibility.",
+            "desciption": "Online Course",
+            "image": "health-fitness-flexibility.jpg",
+            "status": "Start",
+            "userId": 2
+        },
+        {
+            "id": 12,
+            "name": "Calisthenics & Plymestrics ",
+            "desciption": "Online Course",
+            "image": "calisthenic-plymestrics.jpg",
+            "status": "Start",
+            "userId": 2
+        },
+        {
+            "id": 13,
+            "name": "Health Fitness- Running tips",
+            "desciption": "Online Course",
+            "image": "running.jpg",
+            "status": "Start",
+            "userId": 2
+        },
+        {
+            "id": 14,
+            "name": "Swimming & Strength Trainning",
+            "desciption": "Online Course",
+            "image": "swimming-strength.jpg",
+            "status": "Start",
+            "userId": 2
+        },
+        {
+            "id": 15,
+            "name": "Soccer Coaching",
+            "desciption": "Online Course",
+            "image": "soccer-coaching.jpg",
+            "status": "Re-Enroll",
+            "userId": 2
+        },
+        {
+            "id": 16,
+            "name": " Yoga Certification",
+            "desciption": "Online Course",
+            "image": "yoga-Cert.jpg",
+            "status": "Re-Enroll",
+            "userId": 2
+        },
+        {
+            "id": 17,
+            "name": "Getting Started",
+            "desciption": "Online Course",
+            "image": "image.jpg",
+            "status": "Re-Enroll",
+            "userId": 3
+        },
+        {
+            "id": 18,
+            "name": "Diploma in physical Fitness.",
+            "desciption": "Online Course",
+            "image": "physical-fitness.jpg",
+            "status": "Resume",
+            "userId": 3
+        },
+        {
+            "id": 19,
+            "name": "Health and Fitness- Flexibility.",
+            "desciption": "Online Course",
+            "image": "health-fitness-flexibility.jpg",
+            "status": "Start",
+            "userId": 3
+        },
+        {
+            "id": 20,
+            "name": "Calisthenics & Plymestrics ",
+            "desciption": "Online Course",
+            "image": "calisthenic-plymestrics.jpg",
+            "status": "Start",
+            "userId":3
+        },
+        {
+            "id": 21,
+            "name": "Health Fitness- Running tips",
+            "desciption": "Online Course",
+            "image": "running.jpg",
+            "status": "Start",
+            "userId": 3
+        },
+        {
+            "id":22,
+            "name": "Swimming & Strength Trainning",
+            "desciption": "Online Course",
+            "image": "swimming-strength.jpg",
+            "status": "Start",
+            "userId":3
+        },
+        {
+            "id": 23,
+            "name": "Soccer Coaching",
+            "desciption": "Online Course",
+            "image": "soccer-coaching.jpg",
+            "status": "Re-Enroll",
+            "userId":3
+        },
+        {
+            "id": 24,
+            "name": " Yoga Certification",
+            "desciption": "Online Course",
+            "image": "yoga-Cert.jpg",
+            "status": "Re-Enroll",
+            "userId": 3
+        }
+      
+    
+    ],
+    "progress": [
+        {
+            "id": 1,
+            "name": "Courses in Progress",
+            "status": "01",
+            "description": "On going course",
+            "icon": "man.png",
+            "color": "darkred",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "name": "Total Courses",
+            "status": "24",
+            "description": "Number of Courses We Offered",
+            "icon": "wait.png",
+            "color": "light-blue",
+            "userId": 1
+        },
+        {
+            "id":3,
+            "name": "Training Time",
+            "status": "05h 39m",
+            "description": "Total time of your training",
+            "icon": "fitness.png",
+            "color": "red",
+            "userId": 1
+        },
+        {
+            "id": 4,
+            "name": "Total Badge",
+            "status": "05",
+            "description": "Number of badges you achieved",
+            "icon": "sports-and-competition.png",
+            "color": "yellow",
+            "userId": 1
+        },{
+            "id": 5,
+            "name": "Courses in Progress",
+            "status": "03",
+            "description": "On going course",
+            "icon": "man.png",
+            "color": "darkred",
+            "userId": 2
+        },
+        {
+            "id": 6,
+            "name": "Total Courses",
+            "status": "40",
+            "description": "Number of Courses We Offered",
+            "icon": "wait.png",
+            "color": "light-blue",
+            "userId": 2
+        },
+        {
+            "id": 7,
+            "name": "Training Time",
+            "status": "20h 40m",
+            "description": "Total time of your training",
+            "icon": "fitness.png",
+            "color": "red",
+            "userId": 2
+        },
+        {
+            "id": 8,
+            "name": "Total Badge",
+            "status": "01",
+            "description": "Number of badges you achieved",
+            "icon": "sports-and-competition.png",
+            "color": "yellow",
+            "userId": 2
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Laura",
+            "surname": "Mahlangu",
+            "email": "laura@gmail.com",
+            "contact": "0760158624",
+            "password": "test",
+            "image": "customer1.png",
+            "role": "USER"
+        },
+        {
+            "id": 2,
+            "name": "Simosihle",
+            "surname": "Reeds",
+            "email": "Reeds@gmail.com",
+            "contact": "0740158636",
+            "password": "test1",
+            "image": "customer2.png",
+            "role": "ADMIN"
+        },
+        {
+            "id": 3 ,
+            "name": "Brian",
+            "surname": "Brown",
+            "email": "brown@gmail.com",
+            "contact": "0710158614",
+            "password": "test1",
+            "image": "photo1.jpg",
+            "role": "INSTRUCTOR" ,
+            "about": "Growing up i have always been a chubby kid",
+            "shorDesc": "I am Brain and i have struggle with over weight for a long time up until to a point where i had enough and i had to set my mind in the right direction"
+        },
+        {
+            "id": 4 ,
+            "name": "Beyonce",
+            "surname": "Van Venter",
+            "email": "Venter@gmail.com",
+            "contact": "084012536",
+            "password": "test1",
+            "image": "photo2.jpg",
+            "role": "INSTRUCTOR", 
+            "about": "Growing up i have always been a chubby kid",
+            "shorDesc": "When I was a junior in high school I weighed in at just over 300 lbs. at 6’ 5” tall."
+        
+        },
+        {
+            "id": 5 ,
+            "name": "Portia",
+            "surname": "Miller",
+            "email": "Miller@gmail.com",
+            "contact": "0740235863",
+            "password": "test1",
+            "image": "photo3.jpg",
+            "role": "INSTRUCTOR",
+            "about": "Portia will help you discover and work toward your fitnessgoal",
+            "shorDesc": "Health and Fitness Specialist and Personal Trainer Portia is a military wife with two young children. She has been a personal trainer and nutrition consultant for more than 10 years."
+        
+        },
+        {
+            "id":6,
+            "name": "Ronald",
+            "surname": "Jones",
+            "email": "jones@gmail.com",
+            "contact": "0740158636",
+            "password": "test1",
+            "image": "photo4.jpg",
+            "role": "INSTRUCTOR" ,
+            "about": "Living a heath life has been my style ever since i knew the difference from right and wrong",
+            "shorDesc": "Being an instructor has teach me so much in life, its a life style not a hobby you live by it everyday. Do you you wanna change the way you live your life into a better health life. Sorted then I am your person"
+        
+        },
+        {
+            "id": 7,
+            "name": "Rose",
+            "surname": "Braids",
+            "email": "Braids@gmail.com",
+            "contact": "0740158636",
+            "password": "test1",
+            "image": "photo5.jpg",
+            "role": "INSTRUCTOR" ,
+            "about": "Using her various training andenthusiasm Rose will help you discover and work toward your fitnessgoal.",
+            "shorDesc": "Rose teaches a widevariety of classes which include Pilates, Aqua, boot camp, bodypump, body combat, body attack, body step, body jam, cx work,spinning, kickboxing and strength classes."
+        
+        },
+        {
+            "id": 8 ,
+            "name": "Leam",
+            "surname": "White",
+            "email": "white@gmail.com",
+            "contact": "0640158636",
+            "password": "test1",
+            "image": "photo6.jpg",
+            "role": "INSTRUCTOR" ,
+            "about": "Physical fitness is essential in my life",
+            "shorDesc": "Growing up i did not undersrand why people where so into physical fitness, up until i made the best decision in my life by living a healthy life"
+        
+        },
+        {
+            "id": 9 ,
+            "name": "Roben",
+            "surname": "Cooper",
+            "email": "Reeds@gmail.com",
+            "contact": "0741234567",
+            "password": "test1",
+            "image": "photo7.jpg",
+            "role": "INSTRUCTOR",
+            "about": "I am very out going person and i love being pushed to my limits",
+            "shorDesc": "Phsical fitness is a life style its an on going thing you basical live by it, its your second bible, do you want the best person to walk the mile with, then am your perfect mate"
+        
+        },
+        {
+            "id": 10,
+            "name": "Mike",
+            "surname": "Knight",
+            "email": "Knight@gmail.com",
+            "contact": "0740158636",
+            "password": "test1",
+            "image": "photo8.jpg",
+            "role": "INSTRUCTOR",
+            "about": "I talk physical fitness and i walk the talk",
+            "shorDesc": "I am a living transformation from size 48 to 32. It has not been a walk in a park but is possible. Do you need some tranformation let me be your tranformer."
+        
+        },
+        {
+            "id":11,
+            "name": "Mike",
+            "surname": "Real",
+            "email": "Real@gmail.com",
+            "contact": "0740158636",
+            "password": "test1",
+            "image": "photo9.jpg",
+            "role": "INSTRUCTOR",
+            "about": "Passion is what i have in what i do",
+            "shorDesc": "I am very passionate about people living their best life and taking good care of their physical inner and outer being."
+        
+        }
+    ],
+    "instructorSessions": [
+        {
+            "id": 1,
+            "name": "6 pack sesion",
+            "userId": 3
+        },
+        {
+            "id": 2,
+            "name": "booty session",
+            "userId": 3
+        },
+        {
+            "id": 3,
+            "name": "leg session",
+            "userId": 3
+        },
+        {
+            "id": 4,
+            "name": "6 pack sesion",
+            "userId": 4
+        },
+        {
+            "id": 5,
+            "name": "booty session",
+            "userId": 4
+        },
+        {
+            "id": 6,
+            "name": "leg session",
+            "userId": 5
+        },
+        {
+            "id": 7,
+            "name": "6 pack sesion",
+            "userId": 5
+        },
+        {
+            "id": 8,
+            "name": "booty session",
+            "userId": 6
+        },
+        {
+            "id": 9,
+            "name": "leg session",
+            "userId": 6
+        },
+        {
+            "id": 10,
+            "name": "6 pack sesion",
+            "userId": 7
+        },
+        {
+            "id": 11,
+            "name": "booty session",
+            "userId": 7
+        },
+        {
+            "id": 12,
+            "name": "leg session",
+            "userId": 8
+        },
+        {
+            "id": 13,
+            "name": "6 pack sesion",
+            "userId": 8
+        },
+        {
+            "id": 14,
+            "name": "booty session",
+            "userId": 9
+        },
+        {
+            "id": 15,
+            "name": "leg session",
+            "userId": 9
+        },
+        {
+            "id": 16,
+            "name": "6 pack sesion",
+            "userId": 10
+        },
+        {
+            "id": 17,
+            "name": "booty session",
+            "userId": 10
+        },
+        {
+            "id": 18,
+            "name": "leg session",
+            "userId": 11
+        },
+        {
+            "id": 19,
+            "name": "6 pack sesion",
+            "userId": 11
+        }
+    ],
+    "instructorSessionAvailibity": [
+        {
+            "id":1,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00",
+                "Wendsday - Morning - Time 08:00 till 10:00",
+                "Wendsday - Afternoon - Time 12:00 till 13:00",
+                "Friday - Evinig - Time 17:00 till 18:00"
+                
+                
+            ],
+            "userId": 3
+        },
+        {
+            "id":2,
+            "avaible": [
+                "Monday - Morning - Time 09:00 till 11:00",
+                "Monday - Afternoon - Time 13:00 till 14:00",
+                "Monday - Evinig - Time 17:00 till 18:00",
+                "Thursday - Morning - Time 09:00 till 11:00",
+                "Thursday - Afternoon - Time 13:00 till 14:00",
+                "Sartuday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 4
+        },
+        {
+            "id":3,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 5
+        },
+        {
+            "id":4,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 6
+        },
+        {
+            "id":5,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00",
+                "Friday - Morning - Time 08:00 till 10:00",
+                "Friday - Afternoon - Time 12:00 till 13:00"
+            ],
+            "userId": 7
+        },
+        {
+            "id":6,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 8
+        },
+        {
+            "id":7,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Monday - Afternoon - Time 12:00 till 13:00",
+                "Monday - Evinig - Time 17:00 till 18:00",
+                "Tuesday - Morning - Time 08:00 till 10:00",
+                "Tuesday - Afternoon - Time 12:00 till 13:00",
+                "Thursday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 9
+        },
+        {
+            "id":8,
+            "avaible": [
+                "Monday - Morning - Time 08:00 till 10:00",
+                "Thursday - Afternoon - Time 12:00 till 13:00",
+                "Sartuday - Morning - Time 10:00 till 11:00"
+            ],
+            "userId": 10
+        },
+        {
+            "id":9,
+            "avaible": [
+                "Monday - Morning - Time 15:00 till 16:00",
+                "Tuesday - Afternoon - Time 12:00 till 13:00",
+                "Friday - Evinig - Time 17:00 till 18:00"
+            ],
+            "userId": 11
+        }
+    ],
+    "instructorRequest": [
+        {
+            "id": 1,
+            "fullname": "Laura Manhlangu",
+            "time": "Tuesday - Afternoon - Time 12:00 till 13:00",
+            "session": "booty session",
+            "userId": 3
+        }
+    ]   
+}
